@@ -1,0 +1,36 @@
+
+	Pearson's product-moment correlation
+
+data:  df$vso and df$fam_endividadas
+t = -2.5531, df = 151, p-value = 0.01167
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.35078193 -0.04624134
+sample estimates:
+       cor 
+-0.2034268 
+
+
+	Pearson's product-moment correlation
+
+data:  df$vso and df$porc_divida_financ_casa
+t = -7.5128, df = 80, p-value = 7.231e-11
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.7548258 -0.4952945
+sample estimates:
+      cor 
+-0.643172 
+
+
+	Pearson's product-moment correlation
+
+data:  df$fam_endividadas and df$porc_divida_financ_casa
+t = 2.0134, df = 80, p-value = 0.04743
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ 0.002736929 0.416758962
+sample estimates:
+      cor 
+0.2196136 
+
