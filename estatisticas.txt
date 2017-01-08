@@ -34,3 +34,27 @@ sample estimates:
       cor 
 0.2196136 
 
+
+	Pearson's product-moment correlation
+
+data:  df$selic and df$vso
+t = -5.7756, df = 152, p-value = 4.188e-08
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.5457629 -0.2851947
+sample estimates:
+       cor 
+-0.4242202 
+
+
+	Pearson's product-moment correlation
+
+data:  df$selic and df$fam_endividadas
+t = 9.1519, df = 151, p-value = 3.643e-16
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ 0.4845632 0.6905422
+sample estimates:
+      cor 
+0.5973141 
+

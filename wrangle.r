@@ -36,6 +36,27 @@ df <- read.csv('dados-fixed.csv')
 # 		xlab('ano') + ylab('pib municipal (bi)')
 # ggsave('graficos/gg4.png')
 
+# # gg5
+# dfTmp <- df
+# #dfTmp$selic <- dfTmp$selic / 100
+# gg5 <- ggplot() +
+# 		geom_point(aes(x=fam_endividadas, y=selic, color=vso), size=10, alpha=0.5, data=dfTmp) +
+# 		scale_color_gradient(low='#5534DD', high='#DD3455') +
+# 		xlab('taxa de familias endividadas') + ylab('selic (%)') +
+# 		theme_bw()
+# ggsave('graficos/gg5.png')
+
+# # gg6
+# dfTmp <- df
+# dfTmp$a <- as.character(dfTmp$a)
+# gg6 <- ggplot(aes(x=vso, y=selic, color=a), data=dfTmp) +
+# 		geom_point(size=6, shape=18, alpha=0.8) + xlab('vso') + ylab('selic (%)') +
+# 		scale_color_manual(name='ano', values=c('firebrick', 'navyblue', 'springgreen4',
+# 			'purple', 'chocolate', 'gold', 'maroon', 'magenta', 'gray17', 'lawngreen',
+# 			'cornsilk3', 'tan4', 'dodgerblue4')) +
+# 		theme_bw()
+# ggsave('graficos/gg6.png')
+
 # estatisticas
 # correlacao de pearson: vso x divida
 cor.test(df$vso, df$fam_endividadas, method='pearson')
@@ -45,3 +66,9 @@ cor.test(df$vso, df$porc_divida_financ_casa, method='pearson')
 
 # correlacao de pearson: divida x divida especifica moradia
 cor.test(df$fam_endividadas, df$porc_divida_financ_casa, method='pearson')
+
+# correlacao de pearson: selic x vso
+cor.test(df$selic, df$vso, method='pearson')
+
+# correlacao de pearson: selic x divida
+cor.test(df$selic, df$fam_endividadas, method='pearson')
