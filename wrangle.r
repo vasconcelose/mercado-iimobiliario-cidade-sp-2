@@ -61,9 +61,8 @@ df <- read.csv('dados-fixed.csv')
 dfTmp <- df
 dfTmp['datas'] <- seq(as.Date("2004-01-01"), by="month", length.out=12*(2016-2004)+10)
 gg7 <- ggplot(aes(x=datas, y=selic, color=vso), data=dfTmp) +
-		geom_step(size=3) + xlab('ano') + ylab('selic (%)') +
+		geom_step(size=3, alpha=0.7) + xlab('ano') + ylab('selic (%)') +
 		scale_color_gradient(low='dodgerblue4', high='gold') +
-		stat_smooth(color='black', linetype='dotted', size=1, alpha=0) +
 		theme_bw()
 ggsave('graficos/gg7.png')
 
