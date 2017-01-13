@@ -17,14 +17,14 @@ ggsave('graficos/gg1.png')
 gg2 <- ggplot(aes(x=vso, y=porc_divida_financ_casa), data=df) +
 		geom_jitter(size=5, shape='O', color='#5378F3') +
 		stat_smooth(method='loess', color='black', span=0.95) +
-		theme_bw() + xlab('vso') + ylab('divida devido ao financiamento de moradia') +
+		theme_bw() + xlab('vso') + ylab('divida devido ao financiamento de moradia')
 ggsave('graficos/gg2.png')
 
 # gg3
 gg3 <- ggplot(aes(x=a, y=porc_divida_financ_casa), data=df) +
 		geom_jitter(size=6, shape='+', color='#F37853') +
 		stat_smooth(method='loess', color='black', span=0.95) +
-		theme_bw() + xlab('ano') + ylab('divida devido ao financiamento de moradia') +
+		theme_bw() + xlab('ano') + ylab('divida devido ao financiamento de moradia')
 ggsave('graficos/gg3.png')
 
 # gg4
@@ -47,15 +47,15 @@ gg5 <- ggplot() +
 ggsave('graficos/gg5.png')
 
 # gg6
-dfTmp <- df
-dfTmp$a <- as.character(dfTmp$a)
-gg6 <- ggplot(aes(x=vso, y=selic, color=a), data=dfTmp) +
-		geom_point(size=6, shape=18, alpha=0.8) + xlab('vso') + ylab('selic (%)') +
-		scale_color_manual(name='ano', values=c('firebrick', 'navyblue', 'springgreen4',
-			'purple', 'chocolate', 'gold', 'maroon', 'magenta', 'gray17', 'lawngreen',
-			'cornsilk3', 'tan4', 'dodgerblue4')) +
-		theme_bw()
-ggsave('graficos/gg6.png')
+# dfTmp <- df
+# dfTmp$a <- as.character(dfTmp$a)
+# gg6 <- ggplot(aes(x=vso, y=selic, color=a), data=dfTmp) +
+# 		geom_point(size=6, shape=18, alpha=0.8) + xlab('vso') + ylab('selic (%)') +
+# 		scale_color_manual(name='ano', values=c('firebrick', 'navyblue', 'springgreen4',
+# 			'purple', 'chocolate', 'gold', 'maroon', 'magenta', 'gray17', 'lawngreen',
+# 			'cornsilk3', 'tan4', 'dodgerblue4')) +
+# 		theme_bw()
+# ggsave('graficos/gg6.png')
 
 # gg7
 dfTmp <- df
