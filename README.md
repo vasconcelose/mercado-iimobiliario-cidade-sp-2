@@ -1,10 +1,6 @@
 # mercado-imobiliario-cidade-sp-2
 Material gerado para as postagens _"Paulistanos e a casa própria, Parte I: a história que os dados contam"_ e _"Paulistanos e a casa própria, Parte II: como pensa o paulistano médio quando contrata um financiamento (e como tirar proveito disso)"_ no blog Edudatalab (https://edudatalab.wordpress.com/)
 
-Links para as postagens:
-* https://edudatalab.wordpress.com/2017/01/11/paulistanos-e-a-casa-propria-parte-i-a-historia-que-os-dados-contam/
-* em breve
-
 * dados-crus/\*: bases de dados baixadas, antes de qualquer tratamento
 * dados-crus/google-trends/\*: dados de busca do Google Trends
 * graficos/\*: visualizações geradas pelo R em wrangle.r
