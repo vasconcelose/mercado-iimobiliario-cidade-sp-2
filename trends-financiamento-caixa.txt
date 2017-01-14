@@ -1,0 +1,297 @@
+[1] "mes 1 x mes 2"
+[1] "financiamento caixa"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$financiamento_caixa and p[[i]]$financiamento_caixa
+t = 1.1028, df = 24.808, p-value = 0.1404
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ -4.842328       Inf
+sample estimates:
+mean of x mean of y 
+ 69.42857  60.61538 
+
+[1] "vso"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$vso and p[[i]]$vso
+t = -1.7681, df = 16.37, p-value = 0.04784
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+        -Inf -0.03751854
+sample estimates:
+mean of x mean of y 
+ 6.015385  8.707692 
+
+[1] "mes 1 x mes 3"
+[1] "financiamento caixa"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$financiamento_caixa and p[[i]]$financiamento_caixa
+t = 1.6943, df = 24.987, p-value = 0.05132
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ -0.1050087        Inf
+sample estimates:
+mean of x mean of y 
+ 69.42857  56.61538 
+
+[1] "vso"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$vso and p[[i]]$vso
+t = -3.2844, df = 14.538, p-value = 0.002599
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+      -Inf -2.980395
+sample estimates:
+mean of x mean of y 
+ 6.015385 12.423077 
+
+[1] "mes 1 x mes 4"
+[1] "financiamento caixa"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$financiamento_caixa and p[[i]]$financiamento_caixa
+t = 1.3287, df = 23.053, p-value = 0.09847
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ -3.467406       Inf
+sample estimates:
+mean of x mean of y 
+ 69.42857  57.46154 
+
+[1] "vso"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$vso and p[[i]]$vso
+t = -3.7479, df = 16.036, p-value = 0.0008747
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+      -Inf -3.160225
+sample estimates:
+mean of x mean of y 
+ 6.015385 11.930769 
+
+[1] "mes 1 x mes 5"
+[1] "financiamento caixa"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$financiamento_caixa and p[[i]]$financiamento_caixa
+t = 1.7674, df = 24.186, p-value = 0.04489
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.4809082       Inf
+sample estimates:
+mean of x mean of y 
+ 69.42857  54.53846 
+
+[1] "vso"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$vso and p[[i]]$vso
+t = -4.0677, df = 15.369, p-value = 0.0004826
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+      -Inf -3.970415
+sample estimates:
+mean of x mean of y 
+ 6.015385 12.984615 
+
+[1] "mes 1 x mes 6"
+[1] "financiamento caixa"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$financiamento_caixa and p[[i]]$financiamento_caixa
+t = 2.9543, df = 24.966, p-value = 0.003372
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 9.36255     Inf
+sample estimates:
+mean of x mean of y 
+ 69.42857  47.23077 
+
+[1] "vso"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$vso and p[[i]]$vso
+t = -4.2187, df = 14.66, p-value = 0.0003901
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+      -Inf -4.702067
+sample estimates:
+mean of x mean of y 
+ 6.015385 14.069231 
+
+[1] "mes 1 x mes 7"
+[1] "financiamento caixa"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$financiamento_caixa and p[[i]]$financiamento_caixa
+t = 1.8655, df = 24.858, p-value = 0.03698
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 1.246726      Inf
+sample estimates:
+mean of x mean of y 
+ 69.42857  54.61538 
+
+[1] "vso"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$vso and p[[i]]$vso
+t = -2.3412, df = 14.296, p-value = 0.0171
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+      -Inf -1.190427
+sample estimates:
+mean of x mean of y 
+ 6.015385 10.800000 
+
+[1] "mes 1 x mes 8"
+[1] "financiamento caixa"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$financiamento_caixa and p[[i]]$financiamento_caixa
+t = 2.1333, df = 24.954, p-value = 0.02146
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 3.31932     Inf
+sample estimates:
+mean of x mean of y 
+ 69.42857  52.76923 
+
+[1] "vso"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$vso and p[[i]]$vso
+t = -3.7423, df = 15.154, p-value = 0.0009654
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+      -Inf -3.514458
+sample estimates:
+mean of x mean of y 
+ 6.015385 12.623077 
+
+[1] "mes 1 x mes 9"
+[1] "financiamento caixa"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$financiamento_caixa and p[[i]]$financiamento_caixa
+t = 2.3626, df = 24.978, p-value = 0.01312
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 4.933974      Inf
+sample estimates:
+mean of x mean of y 
+ 69.42857  51.61538 
+
+[1] "vso"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$vso and p[[i]]$vso
+t = -4.1386, df = 13.746, p-value = 0.0005206
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+      -Inf -5.517926
+sample estimates:
+mean of x mean of y 
+ 6.015385 15.630769 
+
+[1] "mes 1 x mes 10"
+[1] "financiamento caixa"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$financiamento_caixa and p[[i]]$financiamento_caixa
+t = 2.8767, df = 23.616, p-value = 0.004191
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 8.022004      Inf
+sample estimates:
+mean of x mean of y 
+ 69.42857  49.61538 
+
+[1] "vso"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$vso and p[[i]]$vso
+t = -2.9142, df = 14.985, p-value = 0.005346
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+      -Inf -2.102339
+sample estimates:
+mean of x mean of y 
+ 6.015385 11.292308 
+
+[1] "mes 1 x mes 11"
+[1] "financiamento caixa"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$financiamento_caixa and p[[i]]$financiamento_caixa
+t = 2.534, df = 24.751, p-value = 0.008995
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 6.026281      Inf
+sample estimates:
+mean of x mean of y 
+ 69.42857  50.92308 
+
+[1] "vso"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$vso and p[[i]]$vso
+t = -4.5799, df = 15.024, p-value = 0.0001798
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+      -Inf -4.316532
+sample estimates:
+mean of x mean of y 
+ 6.015385 13.008333 
+
+[1] "mes 1 x mes 12"
+[1] "financiamento caixa"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$financiamento_caixa and p[[i]]$financiamento_caixa
+t = 3.6736, df = 23.318, p-value = 0.0006197
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 13.36679      Inf
+sample estimates:
+mean of x mean of y 
+ 69.42857  44.38462 
+
+[1] "vso"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$vso and p[[i]]$vso
+t = -4.1237, df = 12.584, p-value = 0.0006404
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+      -Inf -5.491215
+sample estimates:
+mean of x mean of y 
+ 6.015385 15.658333 
+

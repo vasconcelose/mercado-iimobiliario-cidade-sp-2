@@ -1,0 +1,297 @@
+[1] "mes 1 x mes 2"
+[1] "apartamento sao paulo"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$apartamento_sao_paulo and p[[i]]$apartamento_sao_paulo
+t = 0.61471, df = 24.316, p-value = 0.2722
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ -7.21525      Inf
+sample estimates:
+mean of x mean of y 
+ 62.35714  58.30769 
+
+[1] "vso"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$vso and p[[i]]$vso
+t = -1.7681, df = 16.37, p-value = 0.04784
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+        -Inf -0.03751854
+sample estimates:
+mean of x mean of y 
+ 6.015385  8.707692 
+
+[1] "mes 1 x mes 3"
+[1] "apartamento sao paulo"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$apartamento_sao_paulo and p[[i]]$apartamento_sao_paulo
+t = 3.786, df = 20.116, p-value = 0.0005751
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 10.24819      Inf
+sample estimates:
+mean of x mean of y 
+ 62.35714  43.53846 
+
+[1] "vso"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$vso and p[[i]]$vso
+t = -3.2844, df = 14.538, p-value = 0.002599
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+      -Inf -2.980395
+sample estimates:
+mean of x mean of y 
+ 6.015385 12.423077 
+
+[1] "mes 1 x mes 4"
+[1] "apartamento sao paulo"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$apartamento_sao_paulo and p[[i]]$apartamento_sao_paulo
+t = 3.8833, df = 17.951, p-value = 0.000547
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 10.24378      Inf
+sample estimates:
+mean of x mean of y 
+ 62.35714  43.84615 
+
+[1] "vso"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$vso and p[[i]]$vso
+t = -3.7479, df = 16.036, p-value = 0.0008747
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+      -Inf -3.160225
+sample estimates:
+mean of x mean of y 
+ 6.015385 11.930769 
+
+[1] "mes 1 x mes 5"
+[1] "apartamento sao paulo"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$apartamento_sao_paulo and p[[i]]$apartamento_sao_paulo
+t = 4.3838, df = 17.748, p-value = 0.0001845
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 12.57728      Inf
+sample estimates:
+mean of x mean of y 
+ 62.35714  41.53846 
+
+[1] "vso"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$vso and p[[i]]$vso
+t = -4.0677, df = 15.369, p-value = 0.0004826
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+      -Inf -3.970415
+sample estimates:
+mean of x mean of y 
+ 6.015385 12.984615 
+
+[1] "mes 1 x mes 6"
+[1] "apartamento sao paulo"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$apartamento_sao_paulo and p[[i]]$apartamento_sao_paulo
+t = 4.0939, df = 21.186, p-value = 0.0002557
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 12.07165      Inf
+sample estimates:
+mean of x mean of y 
+ 62.35714  41.53846 
+
+[1] "vso"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$vso and p[[i]]$vso
+t = -4.2187, df = 14.66, p-value = 0.0003901
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+      -Inf -4.702067
+sample estimates:
+mean of x mean of y 
+ 6.015385 14.069231 
+
+[1] "mes 1 x mes 7"
+[1] "apartamento sao paulo"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$apartamento_sao_paulo and p[[i]]$apartamento_sao_paulo
+t = 2.4243, df = 24.901, p-value = 0.01147
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 4.194161      Inf
+sample estimates:
+mean of x mean of y 
+ 62.35714  48.15385 
+
+[1] "vso"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$vso and p[[i]]$vso
+t = -2.3412, df = 14.296, p-value = 0.0171
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+      -Inf -1.190427
+sample estimates:
+mean of x mean of y 
+ 6.015385 10.800000 
+
+[1] "mes 1 x mes 8"
+[1] "apartamento sao paulo"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$apartamento_sao_paulo and p[[i]]$apartamento_sao_paulo
+t = 3.6402, df = 20.608, p-value = 0.0007837
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 9.631531      Inf
+sample estimates:
+mean of x mean of y 
+ 62.35714  44.07692 
+
+[1] "vso"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$vso and p[[i]]$vso
+t = -3.7423, df = 15.154, p-value = 0.0009654
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+      -Inf -3.514458
+sample estimates:
+mean of x mean of y 
+ 6.015385 12.623077 
+
+[1] "mes 1 x mes 9"
+[1] "apartamento sao paulo"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$apartamento_sao_paulo and p[[i]]$apartamento_sao_paulo
+t = 2.6169, df = 24.972, p-value = 0.007425
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 5.572904      Inf
+sample estimates:
+mean of x mean of y 
+ 62.35714  46.30769 
+
+[1] "vso"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$vso and p[[i]]$vso
+t = -4.1386, df = 13.746, p-value = 0.0005206
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+      -Inf -5.517926
+sample estimates:
+mean of x mean of y 
+ 6.015385 15.630769 
+
+[1] "mes 1 x mes 10"
+[1] "apartamento sao paulo"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$apartamento_sao_paulo and p[[i]]$apartamento_sao_paulo
+t = 4.6847, df = 19.268, p-value = 7.798e-05
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 14.45071      Inf
+sample estimates:
+mean of x mean of y 
+ 62.35714  39.46154 
+
+[1] "vso"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$vso and p[[i]]$vso
+t = -2.9142, df = 14.985, p-value = 0.005346
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+      -Inf -2.102339
+sample estimates:
+mean of x mean of y 
+ 6.015385 11.292308 
+
+[1] "mes 1 x mes 11"
+[1] "apartamento sao paulo"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$apartamento_sao_paulo and p[[i]]$apartamento_sao_paulo
+t = 4.4201, df = 19.049, p-value = 0.0001462
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 13.09702      Inf
+sample estimates:
+mean of x mean of y 
+ 62.35714  40.84615 
+
+[1] "vso"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$vso and p[[i]]$vso
+t = -4.5799, df = 15.024, p-value = 0.0001798
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+      -Inf -4.316532
+sample estimates:
+mean of x mean of y 
+ 6.015385 13.008333 
+
+[1] "mes 1 x mes 12"
+[1] "apartamento sao paulo"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$apartamento_sao_paulo and p[[i]]$apartamento_sao_paulo
+t = 4.4462, df = 20.173, p-value = 0.0001217
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 13.54698      Inf
+sample estimates:
+mean of x mean of y 
+ 62.35714  40.23077 
+
+[1] "vso"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$vso and p[[i]]$vso
+t = -4.1237, df = 12.584, p-value = 0.0006404
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+      -Inf -5.491215
+sample estimates:
+mean of x mean of y 
+ 6.015385 15.658333 
+

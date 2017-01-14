@@ -29,19 +29,21 @@ dfTrends$d <- as.Date(paste(as.character(dfTrends$data), '01', sep='-'), format=
 
 dfTrends$vso <- c(df$vso, NA, NA, NA)
 
-library(ggplot2)
+# library(ggplot2)
 
 p <- list()
 # plotar trend por ano
 for (i in c(4:16)) {
 	ano <- toString(2000 + i)
-	p[[i]] <- ggplot(aes(x=d, y=apartamento_sao_paulo), data=dfTrends) +
-		geom_line(alpha=0.75, size=1, color='indianred4') +
-		geom_point(size=2, alpha=0.75, color='black', shape='O') +
+	p[[i]] <- ggplot(aes(x=d, y=financiamento_caixa), data=dfTrends) +
+		geom_line(alpha=0.75, color='dodgerblue') +
+		geom_point(alpha=0.75, color='black', shape='O') +
+		geom_line(aes(x=d, y=vso), data=dfTrends, color='tomato2', alpha=0.75) +
+		geom_point(aes(x=d, y=vso), data=dfTrends, color='black', alpha=0.75, shape='O') +
 		xlim(as.Date(paste(ano,'-01-01', sep=''), format='%Y-%m-%d'),
 			as.Date(paste(ano, '-12-01', sep=''), format='%Y-%m-%d')) +
-		xlab('') + ylab('trend') +
-		theme(text=element_text(size=8), axis.text.x=element_text(size=6, angle=25),
+		xlab('') + ylab('') +
+		theme(axis.text.x=element_text(size=6, angle=25),
 			axis.text.y = element_text(size=6))
 }
 
@@ -56,9 +58,26 @@ ggsave('graficos/trends.png')
 
 # estatisticas
 library(sqldf)
-dfM <- data.frame()
-dfTmp <- sqldf("select apartamento_sao_paulo from dfTrends where data like '%-01'")
 
-# TODO
+p <- list()
+for (i in c(1:12)) { # iterar sobre os meses do ano
+	ano <- ''
+	if (i < 10) {
+		ano <- paste('0', toString(i), sep='')
+	} else {
+		ano <- toString(i)
+	}
+	q <- paste("select apartamento_sao_paulo, vso from dfTrends where data like '%-", ano, "'", sep='')
+	p[[i]] <- sqldf(q)
+}
 
-dfM
+# testes de hipotese: buscas em janeiro superam todos os outros meses?
+for (i in c(2:12)) {
+	print(paste('mes 1 x mes', toString(i)))
+	print('apartamento sao paulo')
+	ttest <- t.test(p[[1]]$apartamento_sao_paulo, p[[i]]$apartamento_sao_paulo, alternative='greater', conf.level=0.95)
+	print(ttest)
+	print('vso')
+	ttest <- t.test(p[[1]]$vso, p[[i]]$vso, alternative='less', conf.level=0.95)
+	print(ttest)
+}
