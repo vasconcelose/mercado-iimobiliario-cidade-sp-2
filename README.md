@@ -1,9 +1,12 @@
 # mercado-imobiliario-cidade-sp-2
-Material gerado para a postagem _"Paulistanos e a casa própria, Parte I: a história que os dados contam"_ no blog Edudatalab (edudatalab.wordpress.com)
+Material gerado para as postagens _"Paulistanos e a casa própria, Parte I: a história que os dados contam"_ e _"Paulistanos e a casa própria, Parte II: como pensa o paulistano médio quando contrata um financiamento (e como tirar proveito disso)"_ no blog Edudatalab (https://edudatalab.wordpress.com/)
 
-Link para a postagem: https://edudatalab.wordpress.com/2017/01/11/paulistanos-e-a-casa-propria-parte-i-a-historia-que-os-dados-contam/
+Links para as postagens:
+* https://edudatalab.wordpress.com/2017/01/11/paulistanos-e-a-casa-propria-parte-i-a-historia-que-os-dados-contam/
+* em breve
 
 * dados-crus/\*: bases de dados baixadas, antes de qualquer tratamento
+* dados-crus/google-trends/\*: dados de busca do Google Trends
 * graficos/\*: visualizações geradas pelo R em wrangle.r
 * dados.csv: base de dados compilada, sem imputação
 * dados-fixed.csv: base de dados compilada, com imputação
@@ -12,6 +15,7 @@ Link para a postagem: https://edudatalab.wordpress.com/2017/01/11/paulistanos-e-
 * wrangle.r: execução da análise exploratória - geração de visualizações e cálculo de estatísticas
 * estatisticas.txt: saída de wrangle.r em texto (coeficientes de Pearson)
 * wrangle-trends.r: wrangle da parte 2
+* trends-\*.txt: saida de wrangle-trends.txt
 
 >Eduardo Vasconcelos<br>
 >eduardovasconcelos@usp.br
