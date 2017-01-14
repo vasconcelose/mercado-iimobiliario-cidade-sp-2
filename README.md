@@ -11,6 +11,7 @@ Link para a postagem: https://edudatalab.wordpress.com/2017/01/11/paulistanos-e-
 * fix.r: script R para efetuar correções na base de dados e imputar valores
 * wrangle.r: execução da análise exploratória - geração de visualizações e cálculo de estatísticas
 * estatisticas.txt: saída de wrangle.r em texto (coeficientes de Pearson)
+* wrangle-trends.r: wrangle da parte 2
 
 >Eduardo Vasconcelos<br>
 >eduardovasconcelos@usp.br
