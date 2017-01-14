@@ -29,36 +29,36 @@ dfTrends$d <- as.Date(paste(as.character(dfTrends$data), '01', sep='-'), format=
 
 dfTrends$vso <- c(df$vso, NA, NA, NA)
 
-# library(ggplot2)
+library(ggplot2)
 
-# p <- list()
-# # plotar trend por ano
-# for (i in c(4:16)) {
-# 	ano <- toString(2000 + i)
-# 	p[[i]] <- ggplot(aes(x=d, y=apartamento_sao_paulo), data=dfTrends) +
-# 		geom_line(alpha=0.75, size=1, color='indianred4') +
-# 		geom_point(size=2, alpha=0.75, color='black', shape='O') +
-# 		xlim(as.Date(paste(ano,'-01-01', sep=''), format='%Y-%m-%d'),
-# 			as.Date(paste(ano, '-12-01', sep=''), format='%Y-%m-%d')) +
-# 		xlab('') + ylab('trend') +
-# 		theme(text=element_text(size=8), axis.text.x=element_text(size=6, angle=25),
-# 			axis.text.y = element_text(size=6))
-# }
+p <- list()
+# plotar trend por ano
+for (i in c(4:16)) {
+	ano <- toString(2000 + i)
+	p[[i]] <- ggplot(aes(x=d, y=apartamento_sao_paulo), data=dfTrends) +
+		geom_line(alpha=0.75, size=1, color='indianred4') +
+		geom_point(size=2, alpha=0.75, color='black', shape='O') +
+		xlim(as.Date(paste(ano,'-01-01', sep=''), format='%Y-%m-%d'),
+			as.Date(paste(ano, '-12-01', sep=''), format='%Y-%m-%d')) +
+		xlab('') + ylab('trend') +
+		theme(text=element_text(size=8), axis.text.x=element_text(size=6, angle=25),
+			axis.text.y = element_text(size=6))
+}
 
-# library(cowplot)
+library(cowplot)
 
-# plot_grid(p[[4]], p[[5]], p[[6]], p[[7]], p[[8]], p[[9]], p[[10]], p[[11]], p[[12]],
-# 	p[[13]], p[[14]], p[[15]], p[[16]], labels=c("'04", "'05", "'06", "'07",
-# 		"'08", "'09", "'10", "'11", "'12", "'13", "'14", "'15", "'16"),
-# 	label_size=10, ncol=4, nrow=4)
+plot_grid(p[[4]], p[[5]], p[[6]], p[[7]], p[[8]], p[[9]], p[[10]], p[[11]], p[[12]],
+	p[[13]], p[[14]], p[[15]], p[[16]], labels=c("'04", "'05", "'06", "'07",
+		"'08", "'09", "'10", "'11", "'12", "'13", "'14", "'15", "'16"),
+	label_size=10, ncol=4, nrow=4)
 
-# ggsave('graficos/trends.png')
+ggsave('graficos/trends.png')
 
 # estatisticas
 library(sqldf)
 dfM <- data.frame()
 dfTmp <- sqldf("select apartamento_sao_paulo from dfTrends where data like '%-01'")
-dfM$jan$media <- mean(dfTmp$apartamento_sao_paulo)
-dfM$jan$desvio <- sd(dfTmp$apartamento_sao_paulo)
+
+# TODO
 
 dfM
