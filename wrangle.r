@@ -46,17 +46,6 @@ gg5 <- ggplot() +
 		theme_bw()
 ggsave('graficos/gg5.png')
 
-# gg6
-# dfTmp <- df
-# dfTmp$a <- as.character(dfTmp$a)
-# gg6 <- ggplot(aes(x=vso, y=selic, color=a), data=dfTmp) +
-# 		geom_point(size=6, shape=18, alpha=0.8) + xlab('vso') + ylab('selic (%)') +
-# 		scale_color_manual(name='ano', values=c('firebrick', 'navyblue', 'springgreen4',
-# 			'purple', 'chocolate', 'gold', 'maroon', 'magenta', 'gray17', 'lawngreen',
-# 			'cornsilk3', 'tan4', 'dodgerblue4')) +
-# 		theme_bw()
-# ggsave('graficos/gg6.png')
-
 # gg7
 dfTmp <- df
 dfTmp['datas'] <- seq(as.Date("2004-01-01"), by="month", length.out=12*(2016-2004)+10)

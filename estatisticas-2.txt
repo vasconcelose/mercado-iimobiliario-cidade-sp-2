@@ -1,0 +1,432 @@
+[1] "########## apartamento_sao_paulo"
+[1] "mes 1 x mes 2"
+
+	Welch Two Sample t-test
+
+data:  p[[1]][[trend]] and p[[i]][[trend]]
+t = 0.72856, df = 23.877, p-value = 0.2367
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ -6.640204       Inf
+sample estimates:
+mean of x mean of y 
+ 63.23077  58.30769 
+
+[1] "mes 1 x mes 3"
+
+	Welch Two Sample t-test
+
+data:  p[[1]][[trend]] and p[[i]][[trend]]
+t = 3.7918, df = 18.089, p-value = 0.0006629
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 10.68903      Inf
+sample estimates:
+mean of x mean of y 
+ 63.23077  43.53846 
+
+[1] "mes 1 x mes 4"
+
+	Welch Two Sample t-test
+
+data:  p[[1]][[trend]] and p[[i]][[trend]]
+t = 3.8779, df = 16.162, p-value = 0.0006562
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 10.66279      Inf
+sample estimates:
+mean of x mean of y 
+ 63.23077  43.84615 
+
+[1] "mes 1 x mes 5"
+
+	Welch Two Sample t-test
+
+data:  p[[1]][[trend]] and p[[i]][[trend]]
+t = 4.3544, df = 15.986, p-value = 0.0002463
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 12.99435      Inf
+sample estimates:
+mean of x mean of y 
+ 63.23077  41.53846 
+
+[1] "mes 1 x mes 6"
+
+	Welch Two Sample t-test
+
+data:  p[[1]][[trend]] and p[[i]][[trend]]
+t = 4.0903, df = 19.09, p-value = 0.0003091
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 12.52437      Inf
+sample estimates:
+mean of x mean of y 
+ 63.23077  41.53846 
+
+[1] "mes 1 x mes 7"
+
+	Welch Two Sample t-test
+
+data:  p[[1]][[trend]] and p[[i]][[trend]]
+t = 2.4925, df = 23.412, p-value = 0.01009
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 4.717452      Inf
+sample estimates:
+mean of x mean of y 
+ 63.23077  48.15385 
+
+[1] "mes 1 x mes 8"
+
+	Welch Two Sample t-test
+
+data:  p[[1]][[trend]] and p[[i]][[trend]]
+t = 3.6537, df = 18.544, p-value = 0.0008724
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 10.07771      Inf
+sample estimates:
+mean of x mean of y 
+ 63.23077  44.07692 
+
+[1] "mes 1 x mes 9"
+
+	Welch Two Sample t-test
+
+data:  p[[1]][[trend]] and p[[i]][[trend]]
+t = 2.6798, df = 23.905, p-value = 0.006561
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 6.117211      Inf
+sample estimates:
+mean of x mean of y 
+ 63.23077  46.30769 
+
+[1] "mes 1 x mes 10"
+
+	Welch Two Sample t-test
+
+data:  p[[1]][[trend]] and p[[i]][[trend]]
+t = 4.6481, df = 17.322, p-value = 0.0001099
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 14.88274      Inf
+sample estimates:
+mean of x mean of y 
+ 63.23077  39.46154 
+
+[1] "mes 1 x mes 11"
+
+	Welch Two Sample t-test
+
+data:  p[[1]][[trend]] and p[[i]][[trend]]
+t = 4.3943, df = 17.126, p-value = 0.0001948
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 13.52682      Inf
+sample estimates:
+mean of x mean of y 
+ 63.23077  40.84615 
+
+[1] "mes 1 x mes 12"
+
+	Welch Two Sample t-test
+
+data:  p[[1]][[trend]] and p[[i]][[trend]]
+t = 4.4239, df = 18.142, p-value = 0.000161
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 13.98843      Inf
+sample estimates:
+mean of x mean of y 
+ 63.23077  40.23077 
+
+[1] "########## financiamento_caixa"
+[1] "mes 1 x mes 2"
+
+	Welch Two Sample t-test
+
+data:  p[[1]][[trend]] and p[[i]][[trend]]
+t = 1.0748, df = 23.98, p-value = 0.1466
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ -5.28133      Inf
+sample estimates:
+mean of x mean of y 
+ 69.53846  60.61538 
+
+[1] "mes 1 x mes 3"
+
+	Welch Two Sample t-test
+
+data:  p[[1]][[trend]] and p[[i]][[trend]]
+t = 1.638, df = 23.543, p-value = 0.05736
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ -0.5855825        Inf
+sample estimates:
+mean of x mean of y 
+ 69.53846  56.61538 
+
+[1] "mes 1 x mes 4"
+
+	Welch Two Sample t-test
+
+data:  p[[1]][[trend]] and p[[i]][[trend]]
+t = 1.301, df = 23.271, p-value = 0.103
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ -3.824782       Inf
+sample estimates:
+mean of x mean of y 
+ 69.53846  57.46154 
+
+[1] "mes 1 x mes 5"
+
+	Welch Two Sample t-test
+
+data:  p[[1]][[trend]] and p[[i]][[trend]]
+t = 1.7203, df = 23.892, p-value = 0.04915
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.07935986        Inf
+sample estimates:
+mean of x mean of y 
+ 69.53846  54.53846 
+
+[1] "mes 1 x mes 6"
+
+	Welch Two Sample t-test
+
+data:  p[[1]][[trend]] and p[[i]][[trend]]
+t = 2.8443, df = 23.452, p-value = 0.004538
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 8.876955      Inf
+sample estimates:
+mean of x mean of y 
+ 69.53846  47.23077 
+
+[1] "mes 1 x mes 7"
+
+	Welch Two Sample t-test
+
+data:  p[[1]][[trend]] and p[[i]][[trend]]
+t = 1.8083, df = 23.959, p-value = 0.04156
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 0.8029782       Inf
+sample estimates:
+mean of x mean of y 
+ 69.53846  54.61538 
+
+[1] "mes 1 x mes 8"
+
+	Welch Two Sample t-test
+
+data:  p[[1]][[trend]] and p[[i]][[trend]]
+t = 2.0636, df = 23.87, p-value = 0.02505
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 2.863177      Inf
+sample estimates:
+mean of x mean of y 
+ 69.53846  52.76923 
+
+[1] "mes 1 x mes 9"
+
+	Welch Two Sample t-test
+
+data:  p[[1]][[trend]] and p[[i]][[trend]]
+t = 2.2781, df = 23.502, p-value = 0.01606
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 4.45105     Inf
+sample estimates:
+mean of x mean of y 
+ 69.53846  51.61538 
+
+[1] "mes 1 x mes 10"
+
+	Welch Two Sample t-test
+
+data:  p[[1]][[trend]] and p[[i]][[trend]]
+t = 2.7499, df = 21.367, p-value = 0.005941
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 7.466273      Inf
+sample estimates:
+mean of x mean of y 
+ 69.53846  49.61538 
+
+[1] "mes 1 x mes 11"
+
+	Welch Two Sample t-test
+
+data:  p[[1]][[trend]] and p[[i]][[trend]]
+t = 2.4362, df = 22.944, p-value = 0.01151
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 5.518264      Inf
+sample estimates:
+mean of x mean of y 
+ 69.53846  50.92308 
+
+[1] "mes 1 x mes 12"
+
+	Welch Two Sample t-test
+
+data:  p[[1]][[trend]] and p[[i]][[trend]]
+t = 3.5042, df = 21.024, p-value = 0.001054
+alternative hypothesis: true difference in means is greater than 0
+95 percent confidence interval:
+ 12.80254      Inf
+sample estimates:
+mean of x mean of y 
+ 69.53846  44.38462 
+
+[1] "######## vso"
+[1] "mes 1 x mes 2"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$vso and p[[i]]$vso
+t = -1.7681, df = 16.37, p-value = 0.04784
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+        -Inf -0.03751854
+sample estimates:
+mean of x mean of y 
+ 6.015385  8.707692 
+
+[1] "mes 1 x mes 3"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$vso and p[[i]]$vso
+t = -3.2844, df = 14.538, p-value = 0.002599
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+      -Inf -2.980395
+sample estimates:
+mean of x mean of y 
+ 6.015385 12.423077 
+
+[1] "mes 1 x mes 4"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$vso and p[[i]]$vso
+t = -3.7479, df = 16.036, p-value = 0.0008747
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+      -Inf -3.160225
+sample estimates:
+mean of x mean of y 
+ 6.015385 11.930769 
+
+[1] "mes 1 x mes 5"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$vso and p[[i]]$vso
+t = -4.0677, df = 15.369, p-value = 0.0004826
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+      -Inf -3.970415
+sample estimates:
+mean of x mean of y 
+ 6.015385 12.984615 
+
+[1] "mes 1 x mes 6"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$vso and p[[i]]$vso
+t = -4.2187, df = 14.66, p-value = 0.0003901
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+      -Inf -4.702067
+sample estimates:
+mean of x mean of y 
+ 6.015385 14.069231 
+
+[1] "mes 1 x mes 7"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$vso and p[[i]]$vso
+t = -2.3412, df = 14.296, p-value = 0.0171
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+      -Inf -1.190427
+sample estimates:
+mean of x mean of y 
+ 6.015385 10.800000 
+
+[1] "mes 1 x mes 8"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$vso and p[[i]]$vso
+t = -3.7423, df = 15.154, p-value = 0.0009654
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+      -Inf -3.514458
+sample estimates:
+mean of x mean of y 
+ 6.015385 12.623077 
+
+[1] "mes 1 x mes 9"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$vso and p[[i]]$vso
+t = -4.1386, df = 13.746, p-value = 0.0005206
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+      -Inf -5.517926
+sample estimates:
+mean of x mean of y 
+ 6.015385 15.630769 
+
+[1] "mes 1 x mes 10"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$vso and p[[i]]$vso
+t = -2.9142, df = 14.985, p-value = 0.005346
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+      -Inf -2.102339
+sample estimates:
+mean of x mean of y 
+ 6.015385 11.292308 
+
+[1] "mes 1 x mes 11"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$vso and p[[i]]$vso
+t = -4.5799, df = 15.024, p-value = 0.0001798
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+      -Inf -4.316532
+sample estimates:
+mean of x mean of y 
+ 6.015385 13.008333 
+
+[1] "mes 1 x mes 12"
+
+	Welch Two Sample t-test
+
+data:  p[[1]]$vso and p[[i]]$vso
+t = -4.1237, df = 12.584, p-value = 0.0006404
+alternative hypothesis: true difference in means is less than 0
+95 percent confidence interval:
+      -Inf -5.491215
+sample estimates:
+mean of x mean of y 
+ 6.015385 15.658333 
+
